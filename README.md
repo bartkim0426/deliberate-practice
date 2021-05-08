@@ -12,3 +12,11 @@ Important thing is deliberately practice everyday, and made my own program.
 
 출처: http://agile.egloos.com/2807583
 
+
+## checklist
+
+### 2021-05
+- [x] 2021.05.05: chai calculater
+- [x] 2021.05.06: start study review project
+- [ ] 2021.05.07:
+- [x] 2021.05.08: union-set data structure

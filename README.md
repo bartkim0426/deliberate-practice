@@ -19,4 +19,16 @@ Important thing is deliberately practice everyday, and made my own program.
 - [x] 2021.05.05: chai calculater
 - [x] 2021.05.06: start study review project
 - [ ] 2021.05.07:
-- [x] 2021.05.08: union-set data structure
+- [x] 2021.05.08: union-set data structure, study-review project
+- [x] 2021.05.09: shell script, study-review project
+- [ ] 2021.05.10: 
+- [ ] 2021.05.11:
+- [x] 2021.05.12: study-review project (get_env_data_as_dict with test)
+- [ ] 2021.05.13:
+- [ ] 2021.05.14:
+- [ ] 2021.05.15:
+- [ ] 2021.05.16:
+- [ ] 2021.05.17:
+- [ ] 2021.05.18:
+- [ ] 2021.05.19:
+- [ ] 2021.05.20:

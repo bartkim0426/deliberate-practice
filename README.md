@@ -25,7 +25,7 @@ Important thing is deliberately practice everyday, and made my own program.
 - [ ] 2021.05.11:
 - [x] 2021.05.12: study-review project (get_env_data_as_dict with test)
 - [ ] 2021.05.13:
-- [ ] 2021.05.14:
+- [x] 2021.05.14: study-review project
 - [ ] 2021.05.15:
 - [ ] 2021.05.16:
 - [ ] 2021.05.17:

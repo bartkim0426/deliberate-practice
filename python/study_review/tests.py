@@ -1,6 +1,7 @@
 import os
 import tempfile
 from unittest import TestCase, mock
+from test.support import EnvironmentVarGuard
 
 from graphql_client import call_graphql
 
@@ -27,16 +28,12 @@ def get_env_data_as_dict(path: str) -> dict:
 class UtilsTestCase(TestCase):
     '''
     test for help function
-    # TODO: setup에서 생성된 tempfile이 unit test 실행시에는 제거되어 있음
-    문서 한 번 읽어보고 진행
-    https://docs.python.org/ko/3/library/tempfile.html
     '''
     # def _write_env(self, path: str, env: dict):
 
     def setUp(self):
         # create temp env file
-        env_file = tempfile.TemporaryFile()
-        self.env_filename = env_file.name
+        _, self.env_filename = tempfile.mkstemp()
 
         self.test_env = {'key': 'value'}
 
@@ -46,8 +43,7 @@ class UtilsTestCase(TestCase):
 
     def tearDown(self):
         # remove temp env file
-        pass
-        # os.remove(self.env_filename)
+        os.remove(self.env_filename)
 
     def test_get_env_data_as_dict(self):
         self.assertTrue(os.path.exists(self.env_filename))
@@ -57,11 +53,40 @@ class UtilsTestCase(TestCase):
         self.assertEqual(envs, self.test_env)
 
 
+class MockResopnse:
+    def __init__(self, json_data, status_code):
+        self.json_data = json_data
+        self.status_code = status_code
+
+    def json(self):
+        return self.json_data
 
 
-query = 'query { viewer { login }}'
 @mock.patch.dict(os.environ, {'GITHUB_TOKEN': ''})
 class GraphQLTestCase(TestCase):
     def setUp(self):
-        # setup env
-        pass
+        # read env from .env fiie
+        test_env = get_env_data_as_dict('./.env')
+        self.env = mock.patch.dict('os.environ', test_env)
+
+    def test_env_set(self):
+        with self.env:
+            self.assertNotEqual(os.environ.get('GITHUB_TOKEN'), '')
+
+    @mock.patch('httpx.post')
+    def test_call_graphql(self, mock_http):
+        '''
+        # TODO: mock 안되는 부분부터 진행
+        문서 한 번 읽어보고 진행
+        https://docs.python.org/ko/3/library/tempfile.html
+        '''
+        mock_http = mock.Mock()
+        mock_http.status_code = 200
+        mock_http.json = mock.MagicMock(return_value="{'data': {'viewer': {'login': 'bartkim0426'}}}")
+        with self.env:
+            query = 'query { viewer { login }}'
+            token = os.environ.get('GITHUB_TOKEN')
+            result = call_graphql(query, token)
+
+            self.assertEqual(result['data']['viewer']['login'], 'bartkim0426')
+

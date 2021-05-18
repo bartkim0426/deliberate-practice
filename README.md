@@ -15,8 +15,12 @@ Important thing is deliberately practice everyday, and made my own program.
 
 ## checklist
 
-### 2021-05
-- [x] 2021.05.05: [chai calculater](./python/chai_calculator/)
+
+
+
+<details>
+  <summary>2021-05</summary>
+- [x] 2021.05.05: [python: chai calculater](./python/chai_calculator/)
 - [x] 2021.05.06: start study review project
 - [ ] 2021.05.07:
 - [x] 2021.05.08: union-set data structure, study-review project
@@ -25,10 +29,12 @@ Important thing is deliberately practice everyday, and made my own program.
 - [ ] 2021.05.11:
 - [x] 2021.05.12: study-review project (get_env_data_as_dict with test)
 - [ ] 2021.05.13:
-- [x] 2021.05.14: [study-review project](./python/study_review/)
+- [x] 2021.05.14: [python: study-review project](./python/study_review/)
 - [ ] 2021.05.15:
 - [ ] 2021.05.16:
-- [x] 2021.05.17: [Basic tip-calculator](./exercises4programmers/ch01/python/)
-- [x] 2021.05.18: [Refactor tip-calculator](./exercises4programmers/ch01/python/)
+- [x] 2021.05.17: [python (exercises4programmers ch01): Basic tip-calculator](./exercises4programmers/ch01/python/)
+- [x] 2021.05.18: [python (exercises4programmers ch01): Refactor tip-calculator](./exercises4programmers/ch01/python/)
 - [ ] 2021.05.19:
 - [ ] 2021.05.20:
+</details>
+

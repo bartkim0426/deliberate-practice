@@ -28,7 +28,7 @@ Important thing is deliberately practice everyday, and made my own program.
 - [x] 2021.05.14: study-review project
 - [ ] 2021.05.15:
 - [ ] 2021.05.16:
-- [ ] 2021.05.17:
-- [ ] 2021.05.18:
+- [x] 2021.05.17: Basic tip-calculator
+- [x] 2021.05.18: Refactor tip-calculator
 - [ ] 2021.05.19:
 - [ ] 2021.05.20:

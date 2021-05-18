@@ -49,15 +49,29 @@ class TipCalculator:
         tip_rate: int
 
     interfaces:
-        _validate
-        calculate_tip
-        enter_input
-        print_output
-    '''
-    def __init__(self):
-        pass
-        # self._enter_input()
+        proceed(): trigger calculating tip for TipCalculator instance
 
+        _validate
+        _calculate_tip
+        _enter_input
+        _print_output
+
+    usage:
+        In python shell
+    >>> calculator = TipCalculator()
+    >>> calculator.proceed()
+    What is the bill amount? 11.25
+    What is the tip rate? 15
+    Tip: $1.69
+    Total: $12.94
+
+        In CLI
+    $ python tip_calculator.py
+    What is the bill amount? 11.25
+    What is the tip rate? 15
+    Tip: $1.69
+    Total: $12.94
+    '''
     def _enter_input(self):
         '''
         enter input for bill and tip_rate from prompt

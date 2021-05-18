@@ -20,6 +20,7 @@ Important thing is deliberately practice everyday, and made my own program.
 
 <details>
   <summary>2021-05</summary>
+  
 - [x] 2021.05.05: [python: chai calculater](./python/chai_calculator/)
 - [x] 2021.05.06: start study review project
 - [ ] 2021.05.07:

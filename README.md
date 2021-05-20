@@ -35,9 +35,15 @@ Important thing is deliberately practice everyday, and made my own program.
 - [ ] 2021.05.16:
 - [x] 2021.05.17: [python (exercises4programmers ch01): Basic tip-calculator](./exercises4programmers/ch01/python/)
 - [x] 2021.05.18: [python (exercises4programmers ch01): Refactor tip-calculator](./exercises4programmers/ch01/python/)
-- [x] 2021.05.19: [nand2tetris: 06. assember - parser](https://github.com/bartkim0426/nand2tetris/blob/master/projects/06/assembler-python/parser.py)
-- [ ] 2021.05.20:
-- [ ] 
+- [x] 2021.05.19: [nand2tetris: 06. assembler - parser](https://github.com/bartkim0426/nand2tetris/blob/master/projects/06/assembler-python/parser.py)
+- [x] 2021.05.20: nand2tetris: 06. assembler - translator (ing)
+- [ ] 2021.05.21:
+- [ ] 2021.05.22:
+- [ ] 2021.05.23:
+- [ ] 2021.05.24:
+- [ ] 2021.05.25:
+- [ ] 2021.05.26:
+- [ ] 2021.05.27:
 
 </details>
 

@@ -37,7 +37,7 @@ Important thing is deliberately practice everyday, and made my own program.
 - [x] 2021.05.18: [python (exercises4programmers ch01): Refactor tip-calculator](./exercises4programmers/ch01/python/)
 - [x] 2021.05.19: [nand2tetris: 06. assembler - parser](https://github.com/bartkim0426/nand2tetris/blob/master/projects/06/assembler-python/parser.py)
 - [x] 2021.05.20: nand2tetris: 06. assembler - translator (ing)
-- [ ] 2021.05.21:
+- [x] 2021.05.21: nand2tetris: 06. assembler - reader
 - [ ] 2021.05.22:
 - [ ] 2021.05.23:
 - [ ] 2021.05.24:

@@ -42,8 +42,12 @@ Important thing is deliberately practice everyday, and made my own program.
 - [x] 2021.05.23: shell script: read_menu
 - [ ] 2021.05.24:
 - [ ] 2021.05.25:
-- [ ] 2021.05.26:
+- [x] 2021.05.26: toyproject (dailycat)
 - [ ] 2021.05.27:
+- [x] 2021.05.28: python argparser, nand2tetris: 06. assembler - assembler (ing)
+- [ ] 2021.05.29:
+- [ ] 2021.05.30:
+- [ ] 2021.05.31:
 
 </details>
 

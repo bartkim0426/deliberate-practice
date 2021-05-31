@@ -46,8 +46,7 @@ Important thing is deliberately practice everyday, and made my own program.
 - [ ] 2021.05.27:
 - [x] 2021.05.28: python argparser, nand2tetris: 06. assembler - assembler (ing)
 - [ ] 2021.05.29:
-- [ ] 2021.05.30:
-- [ ] 2021.05.31:
-
+- [x] 2021.05.30: shell scripts (loop)
+- [x] 2021.05.31: nand2tetris: 06. assembler - basic assembler
 </details>
 

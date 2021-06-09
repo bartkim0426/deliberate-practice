@@ -63,5 +63,6 @@ Important thing is deliberately practice everyday, and made my own program.
 - [ ] 2021.06.07: 
 - [ ] 2021.06.08: 
 - [ ] 2021.06.09: 
+- [x] 2021.06.10: exercises4programmers ch03 (python): operations
 </details>
 

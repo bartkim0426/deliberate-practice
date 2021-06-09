@@ -121,4 +121,25 @@ It's 2015, so you can retire in 2055.
 
 - [x] 이미 퇴직했을 나이를 입력하면 음수값이 출력되는 상황을 해결
 
-## ch03. 입력, 프로세싱, 출력
+## ch03. 연산
+
+
+### 7. 직사각형 방의 면적
+
+```
+What is the length of the room in feet? 15
+What is the width of the room in feet? 20
+You entered dimensions of 15 feet by 20 feet
+The area is
+300 square feet
+27.871 square meters
+```
+
+- [x] 출력문과 계산부분을 분리할 것
+- [x] 상수를 사용하여 변환 상수를 저장할 것
+
+도전과제
+
+- [ ] 입력 값으로 숫자만 받을 수 있도록 프로그램을 수정해보자. 숫자가 입력될 때까지 진행되지 않도록 하라.
+- [ ] 입력 값이 피트 단위인지 미터 단위인지를 선택하는 새로운 버전을 만들어어 보자.
+- [ ] 이 프로그램을 GUI 버전으로 구현하여 입력 값이 변경되는 즉시 바로 결과가 업데이트되도록 하라.
